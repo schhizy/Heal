@@ -1,12 +1,12 @@
 {
   "name": "hackathon",
   "version": "1.0.0",
-  "description": "Web app for hackathon",
+  "description": "Web app for streamr data challenge",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anand Sinha, Anubhav Bansal, Sarthak Duggal",
+  "author": "khushi , utkarsh",
   "license": "ISC",
   "engines": {
     "node": "v14.15.0"
