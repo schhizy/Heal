@@ -70,22 +70,12 @@ exports.login = catchAsync(async (req, res, next) => {
 
   user.password = undefined;
 
-  // res.status(200).json({
-  //   status: "success",
-  //   message: "Logged-in successful",
-  //   token,
-  //   data: user,
-  // });
-
+  
   res.redirect("/");
 });
 
 exports.logout = catchAsync(async (req, res, next) => {
-  // res.cookie("jwt", "logout", {
-  //   expiresIn: new Date(Date.now() + 10 * 1000),
-  //   httpOnly: true,
-  // });
-
+ 
   res.clearCookie("jwt");
 
   res.status(200).json({

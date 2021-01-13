@@ -52,19 +52,6 @@ app.use(
 
 app.use(cookieParser());
 
-// app.get('/',(req,res)=>{
-//     res.status(200).sendFile(__dirname + '/index.html')
-// })
-
-// app.post('/uploadfile',upload.single('myFile'),(req,res,next)=>{
-//     console.log(req.file)
-//     console.log(req.body)
-//     const file = req.file
-//     if(!file){
-//         return next(new AppError('Please upload a file',400))
-//     }
-//     res.send(file)
-// })
 
 app.use('/',viewRouter);
 
