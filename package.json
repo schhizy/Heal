@@ -5,7 +5,6 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "author": "khushi , utkarsh",
   "license": "ISC",
@@ -21,8 +20,6 @@
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "meanjs": "0.0.1",
-    "mongodb": "^3.6.3",
     "mongoose": "^5.10.11",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
