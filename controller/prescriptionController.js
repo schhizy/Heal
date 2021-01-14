@@ -38,6 +38,10 @@ exports.uploadFile = catchAsync(async (req,res,next)=>{
         name:req.file.filename
     })
 
+    // res.status(201).json({
+    //     status:'success',
+    //     message:'File has been created'
+    // })
     res.redirect('/upload')
 })
 

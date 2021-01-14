@@ -57,7 +57,7 @@
         </div>
 
         <div class="form__group">
-          <input type="password" class="form__input" id="password" placeholder="Password" name="password" required>
+          <input type="password" class="form__input" id="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
           <label for="password" class="form__label">Password</label>
         </div>
 
